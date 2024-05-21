@@ -4,7 +4,7 @@ def choose_number():
     user_numbers = [256, 257, 779]
     return random.choice(user_numbers)
 
-# Simulate someone asking for a number between 1 and 1999
+# Simulate someone asking for a number between 1 and 1998
 if __name__ == "__main__":
     chosen_number = choose_number()
     print(f"The chosen number is: {chosen_number}")
